@@ -1,0 +1,282 @@
+.html,body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.avatar {
+    max-width: 150px;
+    align-items: center;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.avatar-container {
+    width: 100%;
+    background-color: #192931;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    animation: fade-top 1s;
+        animation-duration: 1s;
+        animation-timing-function: ease;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        animation-name: fade-top;
+}
+
+.shape {
+    width: 100%;
+    border-radius: 0 0 25px 25px ;
+    background-color: #f2f2f2;
+}
+
+.sticky {
+    position: sticky; /* Fixed position - sit on top of the page */
+    top: 0;
+    width: 100%;
+    background-color: #f2f2f2; /* Grey background */
+    font-size: 40px; /* Big font size */
+    padding: 20px 0px 20px 0px; /* Some padding */
+    transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
+}
+
+.title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: initial;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 45px;
+    letter-spacing: 0.037143px;
+    margin: 20px;
+    color: #333333;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    animation: fade-top 1s;
+        animation-duration: 1s;
+        animation-timing-function: ease;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        animation-name: fade-top;
+}
+
+.title2{
+    font-family:'Montserrat', 'Arial Narrow', Arial, sans-serif;     
+    font-style: normal;
+    font-weight:800;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+    letter-spacing: 0.05px;
+    color: #607d8b;
+    animation: fade-top 1s;
+        animation-duration: 1s;
+        animation-timing-function: ease;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        animation-name: fade-top;
+}
+
+.title3{
+    font-family:'Times New Roman', Times, serif;    
+    font-style:italic;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.05px;
+    color: #333333;
+    animation: fade-top 1s;
+        animation-duration: 1s;
+        animation-timing-function: ease;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        animation-name: fade-top;
+}
+
+.body {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.05px;
+    color: #848484;
+    animation: fade-top 1s;
+        animation-duration: 1s;
+        animation-timing-function: ease;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        animation-name: fade-top;
+}
+
+/* Style all font awesome icons */
+.fa {
+    flex-flow: wrap;
+    margin: 0px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: grey;
+}
+  
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+.ul-li {
+    list-style: none;
+    position: relative;
+    padding: 3px 0 2px 25px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.05px;
+    color: #848484;
+}
+
+.ul-li::before {
+    content: '>';
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+
+.linea {
+    border-top: 1px solid #b8b8b8;
+    height: 0.5px;
+    padding: 0;
+    margin: 0 auto 0 auto;
+    max-width: 400px;
+    align-items: left;
+}
+
+.square-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 5px 5px 5px 5px;
+}
+
+.square-container-social{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 5px 5px 5px 5px;
+}
+
+.square {
+    width : 500px;
+    max-width: 100%;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    justify-content: flex-start;
+}
+
+.square-small {
+    width : 153px;
+    max-width: 100%;
+    margin: 5px 5px 5px 5px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.grades {
+    width : 80px;
+    max-width: 100%;
+    margin: 5px 5px 5px 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.circle-full {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px ;
+    background-color: #607d8b;
+    margin: 3px;
+    min-width: 10px;
+}
+
+.circle-empty {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px ;
+    background-color: #e4e4e4;
+    margin: 3px;
+    min-width: 10px;
+}
+
+.last-circle{
+    margin-right: 10px;
+}
+
+.updated-style {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.05px;
+    color: #848484;
+}
+
+
+/* TO MAKE IT RESPONSIVE */
+
+@media only screen and (max-width: 600px) {
+    .square-container {
+        justify-content: center;
+        padding: 0 30px;
+    }
+    .title{
+        text-align: center;
+    }
+    .title2{
+        text-align: center;
+    }
+    .title3{
+        text-align: center;
+    }
+    .body{
+        text-align: center;
+    }
+}
+
+
+/* ANIMATIONS */
+
+@keyframes fade-top {
+	0% {
+		top: -50px;
+		opacity: 0;
+	}
+	50% {
+		top: 0;
+	}
+	100% {
+		top: 0;
+		opacity: 1;
+	}
+}
